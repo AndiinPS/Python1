@@ -1,0 +1,5 @@
+print('___'*20)
+print('                   \033[41mIdentificador de nome\033[m')
+print('___'*20)
+nome=str(input('Digite seu nome completo:')).strip()
+print('Seu nome tem Silva?{}'.format('SILVA' in nome.upper()))

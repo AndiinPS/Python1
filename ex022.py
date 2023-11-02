@@ -1,0 +1,11 @@
+print('<<<'*20)
+print('                 \033[33mAnalise de nomes\033[m')
+print('>>>'*20)
+nome=input('Digite seu nome completo:')
+dividido=nome.split()
+print('Analisando seu nome...')
+print('Seu nome em letras maiúsculas é {}'.format(nome.upper()))
+print('Seu nome em letras minúsculas é {}'.format(nome.lower()))
+print('Seu nome tem {} de letras'.format(len(nome)-nome.count(' ')))
+print('Seu primeiro nome é {} e tem {} letras.'.format(dividido[0],len(dividido[0])))
+

@@ -1,0 +1,7 @@
+print('---'*20)
+print('                 \033[42mIdentificação da letra \033[31mA\033[m')
+print('---'*20)
+frase=str(input('Digite uma frase:')).upper().strip()
+print('Existe a letra A {} vezes'.format(frase.count('A')))
+print('Primeira letra A aparece na posição {}'.format(frase.find('A')+1))
+print('E aparece por ultimo na posição {}'.format(frase.rfind('A')+1))
