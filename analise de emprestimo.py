@@ -9,7 +9,7 @@ prestação=valor/(anos*12)
 mínimo=salário*30/100
 print('Calculando ...')
 sleep(2)
-print('Valor de R${:.2f} em {} anos é de R${:.2f}'.format(valor,anos,prestação))
+print('Valor de R${:.2f} a ser pago em {} anos, a parcela é de R${:.2f}'.format(valor,anos,prestação))
 if prestação <= mínimo:
     print(' O seu empréstimo foi APROVADO!')
 else:

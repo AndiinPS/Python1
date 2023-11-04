@@ -1,0 +1,5 @@
+print('~~~'*20)
+print('                 \033[4;35;40mTYPE\033[m')
+print('~~~'*20)
+a=input('Digite algo:')
+print(type(a))

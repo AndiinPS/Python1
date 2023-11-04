@@ -1,2 +1,5 @@
+print('~~~'*20)
+print('                 \033[4;35;40mSEU NOME\033[m')
+print('~~~'*20)
 nome=input('Qual é o seu nome?')
 print('É um grande prazer te conhecer, {}!'.format(nome))

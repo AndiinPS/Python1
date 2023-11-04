@@ -1,3 +1,6 @@
+print('~~~'*20)
+print('                 \033[4;35;40mSOMA\033[m')
+print('~~~'*20)
 primeiro=int(input('primeiro número:'))
 segundo=int(input('segundo número:'))
 soma=primeiro+segundo

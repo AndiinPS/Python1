@@ -1,3 +1,6 @@
+print('~~~'*20)
+print('                 \033[4;35;40mDATA DE NASCIMENTO\033[m')
+print('~~~'*20)
 dia=input('Que dia você nasceu?')
 mes=input('Que mês nasceu?')
 ano=input('Em que ano?')
