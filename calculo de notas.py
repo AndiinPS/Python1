@@ -1,3 +1,6 @@
+print('~~~'*20)
+print('                 \033[4;35;40mCALCULO DE NOTAS\033[m')
+print('~~~'*20)
 p1=float(input('Nota primeira prova:'))
 p2=float(input('Nota segunda prova:'))
 m=(p1+p2)/2
