@@ -1,4 +1,4 @@
-5from time import sleep
+from time import sleep
 print('///'*20)
 print('                \033[1;31;43mComparando números inteiros \033[m')
 print('###'*20)
