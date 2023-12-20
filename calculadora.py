@@ -1,5 +1,5 @@
 print('~~~'*20)
-print('                 \033[4;35;40mCALCULADORA DE MULTIPLICAÇÃO\033[m')
+print('                 \033[4;35;40mCALCULADORA \033[m')
 print('~~~'*20)
 n=int(input('Digite um número:'))
 print('Tabuada \n {}x{}={}'.format(n,0,n*0))
