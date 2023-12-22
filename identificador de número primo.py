@@ -1,3 +1,4 @@
+
 def ok_primo(numero):
     if numero <= 1:
         return False
