@@ -13,7 +13,7 @@ while resposta in 'Ss':
         if num < menor:
             menor = num
 
-    resposta = input('Quer continuar? [S/N]').strip().upper()
+    resposta = input('Quer continuar? [S/N]').strip().upper()[0]
 
 media = soma / quant
 print('Você digitou {} números e a média foi {:.2f}'.format(quant,media))

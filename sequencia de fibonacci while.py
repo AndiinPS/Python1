@@ -1,14 +1,12 @@
-def fibonacci(n):
-    fib_sequence = [0, 1]
-    
-    while len(fib_sequence) < n:
-        fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
-    
-    return fib_sequence[:n]
-
-
-numero = int(input('Digite um número inteiro para a sequência de Fibonacci: '))
-
-
-resultado = fibonacci(numero)
-print('Os primeiros {} elementos da sequência de Fibonacci são: {}'.format(numero,resultado))
+numero = int(input('Digite quantos elementos da sequência de Fibonacci você quer ver: '))
+t1=0
+t2=1
+print('{} > {}'.format(t1,t2), end='')
+contador=3
+while contador <= numero:
+    t3=t1+t2
+    print(' > {}'.format(t3), end='')
+    t1=t2
+    t2=t3
+    contador+=1
+print(' > Fim')
