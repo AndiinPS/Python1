@@ -8,6 +8,7 @@ while True:
     while tipo not in 'PI':
         tipo=input('Impar ou par? [I/P]').strip().upper()[0]
     print('Você jogou {} e o computador {}. Total de {}'.format(player,cpu,total))
+    print('Par' if total%2==0 else 'Impar')
     if tipo =='P':
         if total%2==0:
             print('Vitoria...')
