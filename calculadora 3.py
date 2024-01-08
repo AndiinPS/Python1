@@ -4,4 +4,4 @@ while True:
        break
     for i in range(10 ,-1,-1):
         print(f'{numero} x {i} = {numero*i}')
-    
+print('Calculadora encerrada...')
